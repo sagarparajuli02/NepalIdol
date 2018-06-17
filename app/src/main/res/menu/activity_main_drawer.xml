@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/home"
+            android:title="Home"
+            />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/news"
+            android:title="News" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/video"
+            android:title="Videos" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/people"
+            android:title="Contestants" />
+        <item
+            android:id="@+id/ranking"
+            android:title="Ranking"
+            android:icon="@drawable/rank"
+            />
+        <item android:id="@+id/disclaminar"
+            android:title="Disclaimer"
+            android:icon="@drawable/disc"
+            />
+
+    </group>
+
+</menu>
